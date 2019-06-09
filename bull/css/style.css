@@ -34,16 +34,6 @@ body{position:relative; overflow-x: hidden; background-color: #fefefe; color:#33
     margin-right: auto;
 } 
 
-#main{  
-    width: 100%;height: 100%;
-    margin-bottom: 150px;
-    padding-bottom: 250px;
-    background-image: url('../img/back.gif'); 
-    background-color: pink;
-    background-repeat:no-repeat;
-    background-size: 100%
-
-}
 /*header--------------------------------------------------------------------------------------------*/
 #header{
     position:fixed;
@@ -96,19 +86,22 @@ body{position:relative; overflow-x: hidden; background-color: #fefefe; color:#33
   .head-title-w{font-size:70px;font-weight:bold;color:#fff;}
   .head hr{border: solid 2px #f2a900;width:100px;margin-top:7px;margin-left:auto;margin-right:auto;}
 /*main--------------------------------------------------------------------------------------------*/
-#main_title{/*
-    color: #fff;
-    text-shadow: 5px 5px 0 rgba(242, 242, 242, 0.5);
-
-    font-size: 80px;
-    line-height: 80px;
-    word-spacing:-6px;*/
-    width: 40%;
-    padding-left: 10%;
-    padding-top:150px;
-    padding-bottom:100px; 
+#main{  
+    width: 100%;height: 100%;
+    margin-bottom: 150px;
+    padding-bottom: 250px;
+    background-image: url('../img/back.gif'); 
+    background-color: #fefefe;
+    background-repeat:no-repeat;
+    background-size: 100%
 }
 
+#main_title{
+    width: 40%;
+    padding-left: 10%;
+    padding-top:200px;
+}
+#main_title img{width:1000px;height: 100%;}
 
 /*video--------------------------------------------------------------------------------------------*/
 
@@ -116,7 +109,7 @@ body{position:relative; overflow-x: hidden; background-color: #fefefe; color:#33
     position: absolute;
     background-color: #fefefe;
     height: 200px;width: 3000px;
-    margin-left: -50px;
+    margin-left: -50px;margin-top:10px;
     top:790px;
     transform: rotateZ(-5deg);
     z-index: 9000;
@@ -420,7 +413,7 @@ text-align: left;font-size: 18px;}
     height: 100px;
     top: 50%;
     margin-top: -25px;
-    line-height: 57px;
+    line-height: 100px;
     text-align: center;
     cursor: pointer;
     background: rgba(0, 0, 0, 0.1);
