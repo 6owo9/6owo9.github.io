@@ -235,7 +235,7 @@ function onClickBtnpj(e){
     e.preventDefault();
     anime({
         targets : $scroll,
-        scrollTop : 868,
+        scrollTop : 1177,
         duration : 500,
         easing:"easeInOutQuad"
     });
@@ -246,7 +246,7 @@ function onClickBtnpro(e){
     e.preventDefault();
     anime({
         targets : $scroll,
-        scrollTop : 2052,
+        scrollTop : 2530,
         duration : 500,
         easing:"easeInOutQuad"
 
@@ -258,7 +258,7 @@ function onClickBtndif(e){
     e.preventDefault();
     anime({
         targets : $scroll,
-        scrollTop : 3424,
+        scrollTop : 3953,
         duration : 500,
         easing:"easeInOutQuad"
 
@@ -270,7 +270,7 @@ function onClickBtngal(e){
     e.preventDefault();
     anime({
         targets : $scroll,
-        scrollTop : 6520,
+        scrollTop : 7180,
         duration : 500,
         easing:"easeInOutQuad"
 
