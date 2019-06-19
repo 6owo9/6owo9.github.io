@@ -57,7 +57,7 @@ ul{list-style-type:none}
 /*----------------------------------------------------------------synopsis*/
 #synopsis{width: 100%;height:100%;margin-bottom:300px;padding-top:150px;padding-bottom:50px;background-color: #155ba0;}
 
-#synopsis-contain{width: 600px;margin-left:900px}
+#synopsis-contain{width: 620px;margin-left:900px}
 #synopsis p {font-size:18px;color:#fff;line-height:25px;}
 /*----------------------------------------------------------------cast*/
 #cast{width:100%;height:100%;margin:auto;margin-bottom:300px;}
