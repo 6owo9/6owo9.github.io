@@ -1,5 +1,6 @@
 /*폰트*/
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 /*font-family: 'Shadows Into Light', cursive;*/
 
 html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -11,6 +12,7 @@ dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoo
     max-width: 1920px; 
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 body{position:relative;overflow-x:hidden;background-color:#155ba0;} 
 .clear{clear: both;}
