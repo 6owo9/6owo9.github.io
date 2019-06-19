@@ -9,29 +9,170 @@
 <div id="wrap">
     <div id="nav">
         <ul>
-            <li><a href="#">MAIN</a></li>
-            <li><a href="#">SYNOPSIS</a></li>
-            <li><a href="#">CAST</a></li>
-            <li><a href="#">VIEW</a></li>
-            <li><a href="#">MUSIC</a></li>
-            <li><a href="#">RE:VIEW</a></li>
+            <li><a href="#"><span class="nav-link nav-main">MAIN</span></a></li>
+            <li><a href="#"><span class="nav-link nav-synopsis">SYNOPSIS</span></a></li>
+            <li><a href="#"><span class="nav-link nav-cast">CAST</span></a></li>
+            <li><a href="#"><span class="nav-link nav-view">VIEW</span></a></li>
+            <li><a href="#"><span class="nav-link nav-music">MUSIC</span></a></li>
         </ul>
         <div class="clear"></div>
     </div>
 
     <div id="main">
-        <div id="rotatedeg" class="rotate"></div>
-        <div id="rotate-deg" class="rotate"></div>
+        <video autoplay="true" loop="loop" muted>
+            <source src="./img/main-back.mp4" type="video/mp4">
+            <source src="./img/main-back.webm" type="video/webm">
+            <source src="./img/mainback.ogg" type="video/ogg">
+        </video>
+        <div id="main-title"><img src="./img/logo.png"></div>
+        <!-- <div id="rotatedeg" class="rotate"></div>
+        <div id="rotate-deg" class="rotate"></div> -->
+    </div>
+    
+    <div id="main-yellow">
+      <p>
+        "<br>
+        Our bodies and minds are given once.<br>
+        As the heart wears away, so does the body<br>
+        As time goes by, no one comes.<br>
+        Keep all your grief and suffering now<br>
+        "
+      </p>
     </div>
 
-    <div id="synopsis"></div>
-    <div id="cast"></div>
-    <div id="view"></div>
-    <div id="music"></div>
-    <div id="review"></div>
-    <div id="footer"></div>
-</div>
+    <div id="synopsis">
+        <div id="peach"><img src="./img/복숭아.png"></div>
+        <div id="peach2"><img src="./img/peach2.png"></div>
+        <div id="synopsis-contain">
+        <div class="title">SYNOPSIS</div>
+        <p>
+            1983년 여름 이탈리아, 열 일곱 소년 Elio Perlman은 아름다운 햇살이 내리쬐는 가족 별장에서 여름이 끝나기만을 기다리고 있다. <br> <br>
+            어느 날, 그레코로만 문화 분야의 저명한 교수인 엘리오의 아버지)를 돕는 스물 넷 청년 Oliver가보조 연구원 찾아오면서 모든 날들이 특별해지는데... <br>
+            Elio의 처음이자 Oliver의 전부가 된 그 해, 그들의 삶을 영원히 바꿀 여름을 발견한다.<br><br>
+            James Ivory가 쓴 "Call Me By Your NAME"는 André Aciman의 소설을 원작으로 하고 있다.
+        </p>
+      </div>
 
+    </div>
+
+    <div id="cast">
+      <div class="title">CAST</div>
+
+      <div id="cast-contain">
+      <ul>
+        <li class="cast-bax"><img src="./img/cast-el.jpg"></li><li class="cast-bax">
+        <img src="./img/cast-oli.jpg"></li><li class="cast-bax">
+        <img src="./img/cast-dr.jpg"></li><li class="cast-bax">
+        <img src="./img/cast-gr.jpg"></li>
+      </ul>
+    </div>
+    </div>
+
+    <div id="VIEW">
+        <div class="title title-rotate">VIEW</div>
+        <div id="tab">
+            <div class="tab-container">
+              <div class="tab-content selected"><iframe width="720" height="480" src="https://www.youtube.com/embed/Z9AYPxH5NTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="tab-content"><iframe width="720" height="480" src="https://www.youtube.com/embed/ntwQgNleNTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="tab-content"><iframe width="720" height="480" src="https://www.youtube.com/embed/_7dAL5QqugI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="tab-content"><iframe width="720" height="480" src="https://www.youtube.com/embed/qTkF2NkSmU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+          
+            <div id="tab-menu" class="tab-menu">
+              <ul>
+                <li><a href="#" class="selected tab-a">Trailer</a></li>
+                <li><a href="#" class="tab-a">The First Kiss</a></li>
+                <li><a href="#" class="tab-a">Nosebleed</a></li>
+                <li><a href="#" class="tab-a">The call</a></li>
+              </ul>
+            </div>
+        </div>
+
+        
+        <div id="gallery" class="gallery">
+          <div class="view"> 
+            <div class="view-container">
+                <div class="view-item"><img src="./img/gallery/01.jpg" alt="갤러리 이미지 1"></div>
+                <div class="view-item"><img src="./img/gallery/02.jpg" alt="갤러리 이미지 2"></div>
+                <div class="view-item"><img src="./img/gallery/03.jpg" alt="갤러리 이미지 3"></div>
+                <div class="view-item"><img src="./img/gallery/04.jpg" alt="갤러리 이미지 4"></div>
+                <div class="view-item"><img src="./img/gallery/05.jpg" alt="갤러리 이미지 5"></div>
+                <div class="view-item"><img src="./img/gallery/06.jpg" alt="갤러리 이미지 6"></div>
+                <div class="view-item"><img src="./img/gallery/07.jpg" alt="갤러리 이미지 7"></div>
+
+            </div>
+          </div>
+          
+          <div class="paddle-nav">
+            <ul>
+              <li  class="arrow prev"><button>이전</button></li>
+              <li  class="arrow next"><button>다음</button></li>
+            </ul>
+          </div>
+          
+          <div class="list-wrap">
+            <ul class="list">
+              <li class="selected"><a href="#" title="썸네일 1 버튼"><img src="./img/gallery/01.jpg" alt="갤러리 이미지 썸네일 1"></a></li><li>
+                <a href="#" title="썸네일 2 버튼"><img src="./img/gallery/02.jpg" alt="갤러리 이미지 썸네일 2"></a></li><li>
+                <a href="#" title="썸네일 3 버튼"><img src="./img/gallery/03.jpg" alt="갤러리 이미지 썸네일 3"></a></li><li>
+                <a href="#" title="썸네일 3 버튼"><img src="./img/gallery/04.jpg" alt="갤러리 이미지 썸네일 3"></a></li><li>
+                <a href="#" title="썸네일 3 버튼"><img src="./img/gallery/05.jpg" alt="갤러리 이미지 썸네일 3"></a></li><li>
+                <a href="#" title="썸네일 3 버튼"><img src="./img/gallery/06.jpg" alt="갤러리 이미지 썸네일 3"></a></li><li>
+                <a href="#" title="썸네일 4 버튼"><img src="./img/gallery/07.jpg" alt="갤러리 이미지 썸네일 4"></a></li>
+            </ul>
+          </div>
+            
+        </div>
+    </div>
+
+    
+    <div id="music">
+      <div class="title title-rotate">music</div>
+          <div class="sound-container">
+            <div class="sound-content selected"><img src="./img/sound_1.jpg"><audio class="audio-play" controls><source src="./music/mystery_of_lovI.mp3"></audio></div>
+            <div class="sound-content"><img src="./img/sound_2.jpg"><audio class="audio-play" controls><source src="./music/futile_devices.mp3"></audio></div>
+            <div class="sound-content"><img src="./img/sound_3.jpg"><audio class="audio-play" controls><source src="./music/visions_of_gideon.mp3"></audio></div>
+          </div>
+        
+          <div id="sound-menu" class="sound-menu">
+            <ul>
+              <li><a href="#" class="selected">my stery of love</a></li>
+              <li><a href="#">futile devices</a></li>
+              <li><a href="#">visions of gideon</a></li>
+            </ul>
+          </div>
+    </div>
+
+    <div id="footer">
+      <div id="top"><span id="footer-top"><a href="#">top</a></span></div>
+      
+      <div id="footer-content">
+        <div id="footer-sns">
+          <a href="https://www.facebook.com/callmebyyournameMovie/"><img src="./img/sns/facebook.png"></a>
+          <a href="https://twitter.com/cmbynfilm"><img src="./img/sns/twiee.png"></a>
+          <a href="https://www.instagram.com/cmbynfilm/"><img src="./img/sns/instar.png"></a>
+        </div>
+        
+        <div id="footer-menu">
+          <ul>
+            <li><a href="#"><span class="nav-link nav-main">MAIN</span></a></li>
+            <li><a href="#"><span class="nav-link nav-synopsis">SYNOPSIS</span></a></li>
+            <li><a href="#"><span class="nav-link nav-cast">CAST</span></a></li>
+            <li><a href="#"><span class="nav-link nav-view">VIEW</span></a></li>
+            <li><a href="#"><span class="nav-link nav-music">MUSIC</span></a></li>
+          </ul>
+        </div>
+
+      </div>
+
+
+    </div>
+</div>
+<!-- 외부 스크립트 -->
+<script src="./vendor/gsap/TweenMax.min.js" type="text/javascript"></script>
+<script src="./vendor/anime/anime.min.js" type="text/javascript" ></script>
+
+<!-- 내부 스크립트 -->
 <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
