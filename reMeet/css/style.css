@@ -15,7 +15,7 @@ body{font-family: 'yoon740', sans-serif;overflow-x: hidden;}
 .hide_circle{opacity:0.5;}
 
 /*--------main*/
-#main_bg{width:100%;height:1080px;background-image: url('../img/bcak.png');background-attachment: fixed; background-repeat:no-repeat;margin-left:auto;margin-right:auto;} 
+#main_bg{width:1920px;height:1080px;background-image: url('../img/bcak.png');background-attachment: fixed; background-repeat:no-repeat;margin-left:auto;margin-right:auto;} 
 #main{position:relative;width:1920px;height:1000px;margin-left:auto;margin-right:auto;}
 
 
@@ -189,7 +189,7 @@ input[type="text"] { border: solid 2px #D2691E; }
 
 
 /*illust_bg*/
-#illust_bg{margin-top:450px; width:100%;height:1300px;margin-left:auto;margin-right:auto;}
+#illust_bg{margin-top:450px; width:1920px;height:1300px;margin-left:auto;margin-right:auto;}
 #illust{position:relative;width:1920px;height:1050px;text-align:center;background-color:#ffc029;}
 
 #illust_title{font-family:'yoon770',sans-serif;padding-top:110px;font-size:34.89px;}
@@ -219,7 +219,7 @@ input[type="text"] { border: solid 2px #D2691E; }
 
 
 /*petkit*/
-#petkit_bg{width:100%;height:1080px;background-image: url('../img/bcak_03.png');background-attachment:fixed;background-repeat:no-repeat;text-align:center;margin-left:auto;margin-right:auto;}
+#petkit_bg{width:1920px;height:1080px;background-image: url('../img/bcak_03.png');background-attachment:fixed;background-repeat:no-repeat;text-align:center;margin-left:auto;margin-right:auto;}
 .home_title{font-family:'yoon770',sans-serif;padding-top:110px;font-size:34.89px;}
 .home_text{font-family:'yoon740', sans-serif;height:100px;font-size:20.68px;line-height:30px;margin-top:40px;margin-bottom:10px;}
 
@@ -282,7 +282,7 @@ input[type="text"] { border: solid 2px #D2691E; }
 
 /*guidebook*/
 #js_found{width:300px;height:300px;position:absolute;top: 30%;}
-#guidebook_bg{width:100%;height:1100px;margin-top:150px;}
+#guidebook_bg{width:1920px;height:1100px;margin-top:150px;margin-left:auto;margin-right:auto;}
 #guidebook{position:relative; width:1920px;height:100%;margin-left:auto;margin-right:auto;}
 
 .guidebook_title{font-family:'yoon770', sans-serif;font-size:34.89px;margin-left:37%;padding-top:5%}
@@ -299,7 +299,7 @@ input[type="text"] { border: solid 2px #D2691E; }
 
 
 /*bye*/
-#bye_bg{position:relative;width:1920px;height:1780px;}
+#bye_bg{position:relative;width:1920px;height:1780px;margin-left:auto;margin-right:auto;}
 #byebye_bg{position:absolute;width:1920px;height:706px;z-index:-1;background-color:#ffc029;}
 #bye_view{position:absolute; left:164px;top:350px;opacity:0;}
 #bye_view img{width:90%;}
@@ -331,8 +331,8 @@ input[type="text"] { border: solid 2px #D2691E; }
 #service_memorry_text p{margin-bottom: 25px;}
 
 /*letter*/
-#letter_bg{width:1920px;height:1080px;margin-top:220px;}
-#letter{margin-top:100px;width:1920px;height:1080px;position:relative;background-image:url('../img/letterback.png');}
+#letter_bg{width:1920px;height:1080px;margin-top:220px;margin-left:auto;margin-right:auto;}
+#letter{margin-top:100px;width:1920px;height:1080px;position:relative;background-image:url('../img/letterback.png');margin-left:auto;margin-right:auto;}
 
 #letter_title{ font-family:'yoon770', sans-serif;font-size:34.89px;padding-top:5%;margin-left:30%;}
 #letter_img{position:absolute;left:50%;transform:translateX(-50%);}
@@ -390,7 +390,7 @@ input[type="text"] { border: solid 2px #D2691E; }
 
 
 /*footer*/
-#footer{width:1920px;height:800px;background-color:#272b3e;padding-top:60px;}
+#footer{width:1920px;height:800px;background-color:#272b3e;padding-top:60px;margin-left:auto;margin-right:auto;}
 /* #footer table{border:solid 1px #fff;}
 #footer table tr{border:solid 1px #fff;} */
 #footer table tr td{width:280px;}
