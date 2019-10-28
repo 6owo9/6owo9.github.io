@@ -21,7 +21,7 @@
                     <p id="main_name">: Re meet</p>
                 </div>
         
-                <div id="main_img">
+                <div id="main_img" class="hide_main">
                     <img src="./img/illust_01.png">
                 </div> 
         </div>     
@@ -46,7 +46,7 @@
             </div>
     
             <div id="overview_img">
-                <img src="./img/illust_03.png">
+                <img class="hide_Abright" src="./img/illust_03.png">
             </div>
         </div>
     </div>
@@ -67,19 +67,19 @@
                     <tr>
                         <td class="gragh_year">2012년</td>
                         <td class="gragh_stick"><div id="gragh_stick_12">&nbsp;</div></td>
-                        <td class="gragh_percent">17.4%</td>
+                        <td class="gragh_percent hideme">17.4%</td>
                     </tr>
 
                     <tr>
                         <td class="gragh_year">2015년</td>
                         <td class="gragh_stick"><div id="gragh_stick_15">&nbsp;</div></td>
-                        <td class="gragh_percent">21.8%</td>
+                        <td class="gragh_percent hideme">21.8%</td>
                     </tr>
 
                     <tr>
                         <td class="gragh_year">2017년</td>
                         <td class="gragh_stick"><div id="gragh_stick_17">&nbsp;</div></td>
-                        <td id="gragh_percent_17">28.1%</td>
+                        <td id="gragh_percent_17" class="hideme">28.1%</td>
                     </tr>
                 </table>
 
@@ -105,10 +105,46 @@
                     </p>
                 </div>
 
-                <div id="background_img"><img src="./img/illust_04.png"></div>
+                <div id="background_img"><img class="hide_Abright" src="./img/illust_10.png"></div>
             </div>
         </div>
     </div>
+
+    <div id="togeter_bg"> 
+        <div id="togeter">
+            <div id="togeter_title">REMEET은 이런 분들을 위해 함께 해요</div>
+
+            <div id="togeter_00">
+                <div id="togeter_01" class="OpOut">
+                    <h1 class="togeter_who Remeet_B">추억을 남기고 싶어하는 김00</h1>
+                    <img class="over_target" src="./img/target_01.png">
+                    <p class="togeter_need Remeet_R">“ 평생 아기일 것만 같았던 보리가 노령견이 되었어요.<br>
+                        그간의 추억과 기록들이 이렇게 적었나 싶어요.<br>
+                        후회만 하고 있기엔 시간이 너무 아까워요. ”</p>
+                    <p class="togeter_goal Remeet_B">추억챌린지, 펫킷리스트,한 줄일기</p>
+                </div>
+
+                <div id="togeter_02" class="OpOut">
+                    <h1 class="togeter_who Remeet_B">마음의 준비를 하고 싶은 이00</h1>
+                    <img class="over_target" src="./img/target_02.png">
+                    <p class="togeter_need Remeet_R">“ 제게 나비는 친동생이나 다름이 없어요.<br>
+                        지금의 저는 나비가 없으면 살지 못할 거예요. <br>
+                        나중에 후회하지 않도록 마음의 준비를 해야 할 것 같아요 ”</p>
+                    <p class="togeter_goal Remeet_B">시니어펫 지침서, 이별 방법 안내</p>
+                </div>
+
+                <div id="togeter_03" class="OpOut">
+                    <h1 class="togeter_who Remeet_B">펫로스 증후군을 겪는 최00</h1>
+                    <img class="over_target" src="./img/target_03.png">
+                    <p class="togeter_need Remeet_R">“ 태풍이를 떠나 보낸 뒤 상실감에 힘이 들어요.<br>
+                        같은 고민과 슬픔을 가진 사람들과 함께<br>
+                        서로의 마음을 솔직하게 나누고 싶어요. ”</p>
+                    <p class="togeter_goal Remeet_B">기억 보관소 리밋, 커뮤니티</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div id="target_bg">
         <div id="target">
@@ -176,12 +212,14 @@
             <p id="illust_text">강아지와 고양이의 형태를 라인으로 표현하여 부드러운 느낌을 주었고,<br>
              그 라인을 실타래처럼 이어 '언제나 함께하는 반려동물과 반려인' 이라는 브랜드의 의미를 담았다.</p>
             
-            <img id="illust_phone"  src="./img/phon01.png"> 
+            <img id="illust_phone" class="hide_up" src="./img/phon01.png"> 
 
         <img id="illust_ob04" class="illust_ob" src="./img/illust_04.png">
         <img id="illust_ob09" class="illust_ob" src="./img/illust_09.png">
         <img id="illust_ob03" class="illust_ob" src="./img/illust_03.png">
         <img id="illust_ob06" class="illust_ob" src="./img/illust_06.png">
+        
+    
         </div>    
     </div>
 
@@ -262,8 +300,8 @@
 <script src="./js/vendor/gsap/TweenMax.min.js" type="text/javascript" ></script>
 
 <!-- 내부 스크립트 -->
-<script src="./js/libs/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>
-<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>-->
+<!--<script src="./js/libs/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
 <script src="./js/script.js" type="text/javascript"></script>
 </body>
 </html>
