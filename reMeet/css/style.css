@@ -19,7 +19,7 @@ body{font-family: 'yoon740', sans-serif;overflow-x: hidden;}
 #main{position:relative;width:1920px;height:1000px;margin-left:auto;margin-right:auto;}
 
 
-#main_text{position:absolute;top:50%;transform:translateY(-50%);margin-left:8%;}
+#main_text{position:absolute;top:40%;transform:translateY(-50%);margin-left:8%;}
 #main_title{font-size:85.7px;font-family:'yoon780', sans-serif;line-height:130px;letter-spacing:0;color:#fff;}
 #main_service{font-size:25px;font-family:'yoon740', sans-serif;color:#fff;}
 #main_name{font-size:25px;font-family:'yoon780', sans-serif;color:#fff;}
@@ -27,7 +27,7 @@ body{font-family: 'yoon740', sans-serif;overflow-x: hidden;}
 #main_img{position:absolute;top:50%;transform:translateY(-50%);right:5%;margin-right:0%;opacity:0;}
 #main_img img{width:90%;}
 
-#button{position:absolute;top:860px;left:153px;}
+#button{position:absolute;top:750px;left:153px;}
 input[type="text"] { border: solid 2px #D2691E; }
 .button_css{width:200px;height:60px;color:#fff; background-color:rgba(0, 0, 0, 0);border-radius:30px;border:solid 1px #fff}
 
@@ -390,13 +390,14 @@ input[type="text"] { border: solid 2px #D2691E; }
 
 
 /*footer*/
-#footer{width:1920px;height:800px;background-color:#272b3e;padding-top:60px;margin-left:auto;margin-right:auto;}
+#footer{width:1920px;height:500px;background-color:#272b3e;padding-top:60px;margin-left:auto;margin-right:auto;}
 /* #footer table{border:solid 1px #fff;}
 #footer table tr{border:solid 1px #fff;} */
-#footer table tr td{width:280px;}
+#footer table tr td{width:300px;}
 
 #footer_team{margin-left:auto;margin-right:auto;margin-top:60px;}
-.team_pic{width:250px;margin-left:auto;margin-right:auto;}
+.team_pic{width:200px;margin-left:auto;margin-right:auto;}
+.team_pic img{width:200px;height:200px;}
 .Field{color:#fff;text-align:center;}
 
 .name{color:#fff;text-align:center;height:80px;vertical-align: middle;}
