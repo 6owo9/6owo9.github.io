@@ -54,34 +54,34 @@
         $overLi.addEventListener("click", onClickBtnover);
         function onClickBtnover(e){
             e.preventDefault();
-            anime({targets : $scroll, scrollTop : 1120, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll, scrollTop : 1000, duration : 500, easing:"easeInOutQuad"});}
 
         $backLi.addEventListener("click", onClickBtnback);
         function onClickBtnback(e){
             e.preventDefault();
-            anime({targets : $scroll,scrollTop : 1980, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll,scrollTop : 1779, duration : 500, easing:"easeInOutQuad"});}
 
         $targetLi.addEventListener("click", onClickBtndtarget);
         function onClickBtndtarget(e){
             e.preventDefault();
-            anime({targets : $scroll,scrollTop : 3700,duration : 500,easing:"easeInOutQuad"});}
+            anime({targets : $scroll,scrollTop : 4519,duration : 500,easing:"easeInOutQuad"});}
 
         $logoLi.addEventListener("click", onClickBtnglogo);
         function onClickBtnglogo(e){
             e.preventDefault();
-            anime({targets : $scroll, scrollTop : 5720, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll, scrollTop : 5520, duration : 500, easing:"easeInOutQuad"});}
 
         $serLi.addEventListener("click", onClickBtngser);
         function onClickBtngser(e){
             e.preventDefault();
-            anime({targets : $scroll, scrollTop : 8540, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll, scrollTop : 8061, duration : 500, easing:"easeInOutQuad"});}
 
         $teamLi.addEventListener("click", onClickBtngteam);
         function onClickBtngteam(e){
             e.preventDefault();
-            anime({targets : $scroll, scrollTop : 17770, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll, scrollTop : 17250, duration : 500, easing:"easeInOutQuad"});}
                     
-        //console.log(window.pageYOffset);
+        console.log(window.pageYOffset);
 
     });
 
