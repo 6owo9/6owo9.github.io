@@ -59,27 +59,27 @@
         $backLi.addEventListener("click", onClickBtnback);
         function onClickBtnback(e){
             e.preventDefault();
-            anime({targets : $scroll,scrollTop : 1779, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll,scrollTop : 1900, duration : 500, easing:"easeInOutQuad"});}
 
         $targetLi.addEventListener("click", onClickBtndtarget);
         function onClickBtndtarget(e){
             e.preventDefault();
-            anime({targets : $scroll,scrollTop : 4519,duration : 500,easing:"easeInOutQuad"});}
+            anime({targets : $scroll,scrollTop : 4619,duration : 500,easing:"easeInOutQuad"});}
 
         $logoLi.addEventListener("click", onClickBtnglogo);
         function onClickBtnglogo(e){
             e.preventDefault();
-            anime({targets : $scroll, scrollTop : 5520, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll, scrollTop : 5610, duration : 500, easing:"easeInOutQuad"});}
 
         $serLi.addEventListener("click", onClickBtngser);
         function onClickBtngser(e){
             e.preventDefault();
-            anime({targets : $scroll, scrollTop : 8061, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll, scrollTop : 8161, duration : 500, easing:"easeInOutQuad"});}
 
         $teamLi.addEventListener("click", onClickBtngteam);
         function onClickBtngteam(e){
             e.preventDefault();
-            anime({targets : $scroll, scrollTop : 17250, duration : 500, easing:"easeInOutQuad"});}
+            anime({targets : $scroll, scrollTop : 17300, duration : 500, easing:"easeInOutQuad"});}
                     
         console.log(window.pageYOffset);
 
@@ -440,7 +440,7 @@
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             setTimeout(function() {
                 if( bottom_of_window > bottom_of_element ){
-                    $('#service_memorry img').animate({'padding-left':'0px', 'opacity':'1'},1000);
+                    $('#service_memorry img').animate({'padding-left':'0px', 'opacity':'1'},800);
                 } 
             }, 530);
         });
