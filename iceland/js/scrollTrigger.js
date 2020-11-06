@@ -9,7 +9,6 @@
                 start:"top top",
                 end:"+=1000",
                 scrub:2,
-                markers:true, 
                 pin:true,
             },scale:1.1,duration: 2, ease:"none"});
         
@@ -20,7 +19,8 @@
             }
             else if(width_size <= 1024) {
                 console.log('태블릿' + width_size);
-                
+                $('#listBox').removeClass('op');
+                $('.boxop').css({'width':'250px','height':'300px'});
                 gsap.to("#page01_img", {
                     scrollTrigger:{
                         trigger:"#page01_img",
@@ -37,7 +37,16 @@
                         scrub:2, 
                     },opacity:1,left:0+"%",duration: 2,ease:"none"}); 
                 
-               
+                gsap.to("#listBox", {
+                    scrollTrigger:{
+                        trigger:"#page04",
+                        start:"5% 80%",
+                        end:"top 40%",
+                        scrub:2,
+                    },
+                    marginLeft:'-75%',
+                    duration: 2, 
+                    ease:"none"});
 
             }
             else if(width_size > 1024) {
@@ -57,6 +66,18 @@
                         end:"top 60%",
                         scrub:2, 
                     },opacity:1,left: 10+"%",duration: 2,ease:"none"}); 
+
+                const tl = gsap.timeline({
+                    scrollTrigger:{
+                        trigger:"#page03-1_img",
+                        start:"bottom 80%",
+                        end: "+=1000",
+                        scrub:2,
+                    }
+                    });    
+                    tl.to("#listBox",{opacity:1,marginLeft:'-5%',duration:200})
+                    tl.to("#listBox",{marginLeft:'-7%',duration:100})
+                        
             }
         
         
@@ -129,16 +150,6 @@ gsap.to("#page03_text", {
     ease: "none"
     });
 
-
-const tl = gsap.timeline({
-scrollTrigger:{
-    trigger:"#page03-1_img",
-    start:"bottom 80%",
-    end: "+=1000",
-    scrub:2,
-}
-});    
-tl.to("#listBox",{opacity:1,marginLeft:'-5%',duration:200})
 
 
 
