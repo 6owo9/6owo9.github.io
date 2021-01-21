@@ -3,6 +3,6 @@
   <ul type = "none">
     <li><h2>Re:meet</h2> </li>
     <li><h2>Fancy metry</h2></li>
-    <li><h2>ICceland</h2></li>
+    <li><h2>Iceland</h2></li>
     <li><h2>Travel JEJU</h2></li>
   </ul>
