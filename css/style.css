@@ -1,159 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
-@font-face{font-family:"yoonM";src:url("../font/YoonMyungjoPro750.ttf");}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 /*font-class*/
-.noto300{font-family: 'Noto Sans KR', sans-serif;font-weight:300;}
-.noto400{font-family: 'Noto Sans KR', sans-serif;font-weight:400;}
-.noto500{font-family: 'Noto Sans KR', sans-serif;font-weight:500;}
-.yoonMy{font-family:'yoonM', sans-serif;}
+.y740{font-family:'yoon740', sans-serif;}
+.y770{font-family:'yoon770', sans-serif;}
+.y780{font-family:'yoon780', sans-serif;}
 
-/*hover*/
+
 .outhover{
     transition: all 300ms ease-in-out;
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
     -ms-transition:all 300ms ease-in-out;}
+.hover{
+    transition: all 500ms ease-in-out;
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);}
+
+/**/
+html{overflow-x:hidden;}
+body{overflow-x:hidden;overflow-y:hidden; color:#333;background-color:#eff3f7;} 
+.clear{clear:both;overflow:hidden;height:0px;margin:0px;}
 
 
-body{overflow-x:hidden;background-size:cover;background-color:#eff3f7;}
-#wrap{width:100%;height:100%;background-color:#eff3f7;} 
 
-/*공동 class*/
-.clear{clear:both;height:0px;overflow:hidden;margin: 0px;}
 
-.backop{background-repeat:no-repeat;background-size:cover;object-fit:cover;}
-.page{width:90%;height:100vh;position:relative;margin:0 auto 0 auto;}
-.posAbsol{position:absolute;}
-.op{opacity:0;}
-
-.boxShadow{box-shadow:rgba(0, 0, 0, .35) 10px 10px 20px;}
-.boxop{width:350px;height:400px;position:relative;overflow:hidden;}
-.W100{width:100%;}
-
-.content_TXT{background-color:#fff;color:#333;}
-.content_MIDtitle{width:300px;margin:25px auto 25px auto;padding:0 0 5px 0;text-align:center;font-size:40px;border-bottom:solid #333 1.5px;}
-.content_text{width:400px;margin:0 auto 0 auto;font-size:18px;line-height:25px;}
-
-.listTXT{width:100%;height:20%;bottom:0;font-size:20px;text-align:center;line-height:70px;}
-.boldtext{font-size:19px;font-weight:500;}
-/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media (min-width:320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
     /*스마트폰*/
-.page{width:90%;position:relative;margin:0 auto 0 auto;}
-.boxop{width:150px;height:200px;position:relative;overflow:hidden;}
-.content_MIDtitle{width:90%;margin:12px auto 12px auto;padding:0 0 5px 0;text-align:center;font-size:22px;border-bottom:solid #333 1.5px;}
-.content_text{width:90%;margin:0 auto 0 auto;font-size:13px;line-height:20px;}
-.listTXT{width:100%;height:20%;bottom:0;font-size:20px;text-align:center;line-height:70px;}
-.boldtext{font-size:15px;font-weight:500;}
+#wrap{width:90%;height:100%;margin:0 auto 0 auto;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
 
-#main{width:100%;height:100vh;position:relative;overflow:hidden;}
-#mainBox{width:100%;height:100vh;background-image:url('../img/main.jpg');background-repeat:no-repeat;background-position:center;}
-#main_sty{width:100%;height:100vh;top:0;left:0;z-index:1;opacity:15%;background-color:#000;background-blend-mode:multiply;}
+#my_self{width:100%;height:100%;margin:25px 0 0 0;}
+    #me{width:150px;height:100%;overflow:hidden;float:left;}
+    #me img{width:150px;}
+    #about{float:left;margin-top:20px;}
+    #about p{font-size:15px}
+        #name{font-size:22px;}
+        #nameEn{color:#888;}
+        #since{font-size:10px;color:#888;}
+        #email{line-height:30px;}
 
-#main_text{height:150px; top:50%;left:50%;transform:translate(-50%, -50%);z-index:2;color:#fff;}
-#main_tile{font-size:45px;letter-spacing:15px;}
-#main_sub{font-size:16px;line-height:25px;margin:10px 0 0 0;padding:10px 0 0 10px;border-left:solid 2px #fff;}
+        #git img{width:40px;margin:148px 0 0 15px;}
 
-#page01{width:;height:;}
-#page01_img{width:100%;height:53%;top:35%;left:10%;background-image:url("../img/aurora.jpg");background-position:70%;}
-#page01_text{width:80%;height:320px;bottom:-7%;left:5%;z-index:2;}
 
-#page02{width:100%;height:600px;margin-top:60px;}
-#page02_img{width:120%;height:80%;top:40%;right:-5%;z-index:0;background-image:url("../img/bluelagoon.jpg");}
-#page02_text{width:71%;height:260px;top:10%;left:0%;}
+#midline{width:100%;margin:50px auto 0 auto;}
+    #midline p{text-align:center;font-size:13px;font-weight:400;letter-spacing:10px;}
+    #midline p::before{content:"";width:15%;height:7px;margin:0 15px 0 0;display:inline-block;border-top:solid 2px #bdbfc2;}
+    #midline p::after{content:"";width:15%;height:7px;margin:0 auto 0 5px;display:inline-block;border-top:solid 2px #bdbfc2;}
 
-#page03{width:100%;height:1000px;margin:250px 0 0 0;position:relative;}
-#page03_img{width:70%;height:70%;top:0;left:-10%;z-index:0;background-image:url("../img/dyrholaey_2.jpg");background-position:70%;}
-#page03-1_img{width:45%;height:35%;bottom:10%;left:20%;z-index:2;background-image:url("../img/dyrholaey_1.jpg");background-position:100%;}
-#page03_text{width:55%;height:700px;top:10%;right:0;color:#333;z-index:2;background-color:#eff3f7;}
-#content_textPage03{width:150px;margin:0 auto 0 auto;font-size:13px;line-height:20px;}
-
-#page04{width:100%;height:225px;margin:70px 0 0 0;position:relative;overflow-x:scroll;}
-#listBox{width:220%;height:50%;}
-.listTXT{width:100%;height:20%;bottom:0;font-size:15px;text-align:center;line-height:40px;}
-#page04 li{float:left;margin-left:15px;}
-#list01{height:90%;background-image:url('../img/jokulsarlon.jpg');background-position:60%;}
-#list02{height:90%;background-image:url('../img/bingvellir.jpg');background-position:30%;}
-#list03{height:80%;background-image:url('../img/Hallgrímskirkja.jpg');background-position:35%;}
-#list04{height:90%;background-image:url('../img/gullfoss.jpg');}
-#list05{height:90%;background-image:url('../img/Geysir.jpg');} 
-
+#PFbox{width:100%;height:100%;margin:50px auto 0 auto;}
+.PFlist{width:100%;height:215px;margin-bottom:20px;overflow:hidden;}
+    .PFlist img{width:100%;}
+    .PFlist p{font-size:15px;margin-top:5px;}
 
 }
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    /*태블릿*/
-    /* #wrapback{width:50%;position:absolute;top:287%;right:-20%;} */
-    #main{width:103%;height:100vh;position:relative;overflow: hidden;}
-    #mainBox{width:100%;height:100vh;transform:scale(1.5); background-image:url('../img/main.jpg');background-repeat:no-repeat;background-position:center;}
-    #main_sty{width:100%;height:100vh;top:0;left:0;z-index:1;opacity:15%;background-color:#000;background-blend-mode:multiply;}
-    
-    #main_text{height:325px; top:50%;left:50%;transform:translate(-50%, -50%);z-index:2;color:#fff;}
-    #main_tile{font-size:150px;letter-spacing:25px;}
-    #main_sub{font-size:30px;line-height:35px;margin:30px 0 0 0;padding:10px 0 0 10px;border-left:solid 2px #fff;}
-    
+/*태블릿*/
+#wrap{width:90%;height:100%;margin:0 auto 0 auto;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
 
-    #page01_img{width:60%;height:53%;top:35%;left:40%;z-index:2;background-image:url("../img/aurora.jpg");background-position:15%;}
-    #page01_text{width:70%;height:35%;bottom:-7%;left:20%;}
-    
+#my_self{width:100%;height:100%;margin:50px 0 0 0;}
+    #me{width:200px;height:100%;margin-right:50px;overflow:hidden;float:left;}
+    #me img{width:200px;}
 
-    #page02{margin-top:150px;}
-    #page02_img{width:100%;height:70%;top:25%;right:0%;z-index:0;background-image:url("../img/bluelagoon.jpg");}
-    #page02_text{width:65%;height:30%;top:40%;left:0%;}
+    #git{height:50px;margin:205px 0 0 0;float:right;}
+    #git img{width:50px;}
+
+    #about{float:left;margin-top:120px;}
+    #about p{font-size:17px}
+        #name{font-size:25px;}
+        #nameEn{color:#888;}
+        #since{font-size:13px;color:#888;}
+        #email{line-height:30px;}
 
 
-    #page03{width:100%;height:100vh;margin:150px 0 0 0;position:relative;}
-    #page03_img{width:50%;height:70%;top:10%;left:0%;z-index:0;background-image:url("../img/dyrholaey_2.jpg");background-position:70%;}
-    #page03-1_img{width:28%;height:35%;bottom:10%;left:35%;z-index:1;background-image:url("../img/dyrholaey_1.jpg");background-position:100%;}
-    #page03_text{width:30%;height:45%;top:10%;right:8%;color:#333;}
-    #content_textPage03{width:270px;margin:0 auto 0 auto;font-size:18px;line-height:25px;}
+#midline{width:80%;margin:50px auto 0 auto;}
+    #midline p{text-align:center;font-size:18px;font-weight:400;letter-spacing:20px;}
+    #midline p::before{content:"";width:20%;height:7px;margin:0 30px 0 auto;display:inline-block;border-top:solid 2px #bdbfc2;}
+    #midline p::after{content:"";width:20%;height:7px;margin:0 auto 0 15px;display:inline-block;border-top:solid 2px #bdbfc2;}
 
+#PFbox{width:100%;height:500px;margin:50px auto 0 auto;}
+.PFlist{width:47%;height:275px;margin-bottom:40px;overflow:hidden;}
+    .PFlist img{width:100%;}
+    .PFlist p{font-size:17px;margin-top:10px;}
 
-    #page04{width:100%;height:60vh;margin:100px 0 0 0;position:relative;overflow:hidden;}
-    #listBox{width:200%;height:50%;margin-left:10%;}
-    #page04 li{float:left;margin-left:25px;}
-    #list01{height:90%;background-image:url('../img/jokulsarlon.jpg');background-position:60%;}
-    #list02{height:90%;background-image:url('../img/bingvellir.jpg');background-position:30%;}
-    #list03{height:80%;background-image:url('../img/Hallgrímskirkja.jpg');background-position:35%;}
-    #list04{height:90%;background-image:url('../img/gullfoss.jpg');}
-    #list05{height:90%;background-image:url('../img/Geysir.jpg');} 
 }
 
-@media (min-width:1025px) {
+
+@media (min-width: 1025px) {
     /*PC*/
-/* #wrapback{width:50%;position:absolute;top:287%;right:-20%;} */
-#main{width:100%;height:100vh;position:relative;overflow: hidden;}
-#mainBox{width:100%;height:100vh;transform:scale(1.5); background-image:url('../img/main.jpg');background-repeat:no-repeat;background-position:15% center;}
-#main_sty{width:100%;height:100vh;top:0;left:0;z-index:1;opacity:15%;background-color:#000;background-blend-mode:multiply;}
+#wrap{width:65%;height:100%;margin:0 auto 0 auto;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
 
-#main_text{height:325px; top:50%;left:50%;transform:translate(-50%, -50%);z-index:2;color:#fff;}
-#main_tile{font-size:225px;letter-spacing:25px;}
-#main_sub{font-size:30px;line-height:35px;margin:30px 0 0 0;padding:10px 0 0 10px;border-left:solid 2px #fff;}
+#my_self{width:100%;margin:150px 0 0 0;}
+    #me{width:200px;height:100%;margin-right:50px;overflow:hidden;float:left;}
+    #me img{width:200px;}
 
-/*page01*/
-#page01_img{width:60%;height:53%;top:35%;left:40%;z-index:2;background-image:url("../img/aurora.jpg");background-position:15%;}
-#page01_text{width:33%;height:40%;padding:0 50px 0 0;bottom:10%;left:20%;}
+    #git{height:50px;margin:205px 0 0 0;float:right;}
+    #git img{width:40px;margin:0 0 0 0;}
+   
+    #about{margin-top:115px;float:left;}
+    #about p{font-size:17px}
+        #name{font-size:25px;}
+        #nameEn{color:#888;}
+        #since{font-size:13px;color:#888;}
+        #email{line-height:30px;}
 
-/*page02*/
-#page02_img{width:100%;height:70%;top:25%;right:0%;z-index:0;background-image:url("../img/bluelagoon.jpg");}
-#page02_text{width:30%;height:35%;top:40%;left:0%;}
 
-/*page03*/
-#page03{width:100%;height:100vh;margin:200px 0 0 0;position:relative;}
-#page03_img{width:50%;height:70%;top:10%;left:0%;z-index:0;background-image:url("../img/dyrholaey_2.jpg");}
-#page03-1_img{width:28%;height:50%;bottom:0%;left:35%;z-index:1;background-image:url("../img/dyrholaey_1.jpg");background-position:100%;}
-#page03_text{width:30%;height:45%;top:20%;right:8%;color:#333;}
-#content_textPage03{width:450px;margin:0 auto 0 auto;font-size:18px;line-height:25px;}
-/*list*/
-#page04{width:100%;height:60vh;margin:250px 0 0 0;position:relative;}
-#listBtn{width:80px;height:40px;top:-100px;left:20%}
-#listBtn input{width:80px;height:20px;margin:5px 0 10px 0;}
+#midline{width:80%;margin:100px auto 0 auto;}
+    #midline p{text-align:center;font-size:18px;font-weight:400;letter-spacing:20px;}
+    #midline p::before{content:"";width:300px;height:7px;margin:0 30px 0 auto;display:inline-block;border-top:solid 2px #bdbfc2;}
+    #midline p::after{content:"";width:300px;height:7px;margin:0 auto 0 15px;display:inline-block;border-top:solid 2px #bdbfc2;}
 
-#listBox{width:110%;height:43%;margin-left:10%;}
-#page04 li{float:left;margin-left: 45px;}
-#list01{height:90%;background-image:url('../img/jokulsarlon.jpg');background-position:60%;}
-#list02{height:90%;background-image:url('../img/bingvellir.jpg');background-position:30%;}
-#list03{height:80%;background-image:url('../img/Hallgrímskirkja.jpg');background-position:35%;}
-#list04{height:90%;background-image:url('../img/gullfoss.jpg');}
-#list05{height:90%;background-image:url('../img/Geysir.jpg');}
+#PFbox{width:100%;height:900px;margin:100px auto 0 auto;}
+.PFlist{width:49%;height:400px;margin-bottom:30px;overflow:hidden;}
+    .PFlist img{width:100%;}
+    .PFlist p{font-size:17px;margin-top:10px;}
+
+
 }

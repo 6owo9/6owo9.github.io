@@ -1,14 +1,34 @@
 (function($) {
     $(document).ready(function() {
-        console.log("준비");
-        history.scrollRestoration = "manual" //새로고침 시 스크롤 복원 안함
+    console.log('준비');
         
-        setTimeout(function() {
-            $('#main_tile').animate({"letter-spacing":"10px","opacity":"1"},1500);
-            },100);setTimeout(function() {
-            $('#main_sub').animate({"padding-top":"0px","opacity":"1"},700);
-            },1500);
+    $('.PFlist:odd').css('float','right'); //PFlist 짝수 
+    $('.PFlist:even').css('float','left'); //PFlist 홀수 
+        
+        
+       
+   
+    
     });
 })(jQuery);
 
 
+      
+
+            
+            
+
+            
+ //var max = 1000; //100% 투명할때의 스크롤 값
+       
+            // $(window).scroll(function(){
+            //     var scrollPX = $(this).scrollTop();
+                
+            //     if( scrollPX+1000  < max ) {
+            //         $("#page01 img").css({"opacity": (max-scrollPX)/max });
+        
+            //     }else{
+            //         $("#page01 img").css({"opacity": 0});
+            //     }	
+        
+            // });
