@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+/*font-class*/
+.y740{font-family:'yoon740', sans-serif;}
+.y770{font-family:'yoon770', sans-serif;}
+.y780{font-family:'yoon780', sans-serif;}
+
+
+.outhover{
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition:all 300ms ease-in-out;}
+.hover{
+    transition: all 500ms ease-in-out;
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);}
+
+/**/
+html{overflow-x:hidden;}
+body{overflow-x:hidden;overflow-y:hidden; color:#333;background-color:#eff3f7;} 
+.clear{clear:both;overflow:hidden;height:0px;margin:0px;}
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /*스마트폰*/
+#wrap{width:90%;height:100%;margin:0 auto 0 auto;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
+
+#my_self{width:100%;height:100%;margin:25px 0 0 0;}
+    #me{width:150px;height:100%;overflow:hidden;float:left;}
+    #me img{width:150px;}
+    #about{float:left;margin-top:20px;}
+    #about p{font-size:15px}
+        #name{font-size:22px;}
+        #nameEn{color:#888;}
+        #since{font-size:10px;color:#888;}
+        #email{line-height:30px;}
+
+        #git img{width:40px;margin:148px 0 0 15px;}
+
+
+#midline{width:100%;margin:50px auto 0 auto;}
+    #midline p{text-align:center;font-size:13px;font-weight:400;letter-spacing:10px;}
+    #midline p::before{content:"";width:15%;height:7px;margin:0 15px 0 0;display:inline-block;border-top:solid 2px #bdbfc2;}
+    #midline p::after{content:"";width:15%;height:7px;margin:0 auto 0 5px;display:inline-block;border-top:solid 2px #bdbfc2;}
+
+#PFbox{width:100%;height:100%;margin:50px auto 0 auto;}
+.PFlist{width:100%;height:215px;margin-bottom:20px;overflow:hidden;}
+    .PFlist img{width:100%;}
+    .PFlist p{font-size:15px;margin-top:5px;}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+/*태블릿*/
+#wrap{width:90%;height:100%;margin:0 auto 0 auto;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
+
+#my_self{width:100%;height:100%;margin:50px 0 0 0;}
+    #me{width:200px;height:100%;margin-right:50px;overflow:hidden;float:left;}
+    #me img{width:200px;}
+
+    #git{height:50px;margin:205px 0 0 0;float:right;}
+    #git img{width:50px;}
+
+    #about{float:left;margin-top:120px;}
+    #about p{font-size:17px}
+        #name{font-size:25px;}
+        #nameEn{color:#888;}
+        #since{font-size:13px;color:#888;}
+        #email{line-height:30px;}
+
+
+#midline{width:80%;margin:50px auto 0 auto;}
+    #midline p{text-align:center;font-size:18px;font-weight:400;letter-spacing:20px;}
+    #midline p::before{content:"";width:20%;height:7px;margin:0 30px 0 auto;display:inline-block;border-top:solid 2px #bdbfc2;}
+    #midline p::after{content:"";width:20%;height:7px;margin:0 auto 0 15px;display:inline-block;border-top:solid 2px #bdbfc2;}
+
+#PFbox{width:100%;height:500px;margin:50px auto 0 auto;}
+.PFlist{width:47%;height:275px;margin-bottom:40px;overflow:hidden;}
+    .PFlist img{width:100%;}
+    .PFlist p{font-size:17px;margin-top:10px;}
+
+}
+
+
+@media (min-width: 1025px) {
+    /*PC*/
+#wrap{width:65%;height:100%;margin:0 auto 0 auto;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
+
+#my_self{width:100%;margin:150px 0 0 0;}
+    #me{width:200px;height:100%;margin-right:50px;overflow:hidden;float:left;}
+    #me img{width:200px;}
+
+    #git{height:50px;margin:205px 0 0 0;float:right;}
+    #git img{width:40px;margin:0 0 0 0;}
+   
+    #about{margin-top:115px;float:left;}
+    #about p{font-size:17px}
+        #name{font-size:25px;}
+        #nameEn{color:#888;}
+        #since{font-size:13px;color:#888;}
+        #email{line-height:30px;}
+
+
+#midline{width:80%;margin:100px auto 0 auto;}
+    #midline p{text-align:center;font-size:18px;font-weight:400;letter-spacing:20px;}
+    #midline p::before{content:"";width:300px;height:7px;margin:0 30px 0 auto;display:inline-block;border-top:solid 2px #bdbfc2;}
+    #midline p::after{content:"";width:300px;height:7px;margin:0 auto 0 15px;display:inline-block;border-top:solid 2px #bdbfc2;}
+
+#PFbox{width:100%;height:900px;margin:100px auto 0 auto;}
+.PFlist{width:49%;height:400px;margin-bottom:30px;overflow:hidden;}
+    .PFlist img{width:100%;}
+    .PFlist p{font-size:17px;margin-top:10px;}
+
+
+}
